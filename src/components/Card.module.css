@@ -1,0 +1,67 @@
+.biggerBox{
+  color: #ffffff;
+  background-color: #000000;
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  max-width: 400px;
+}
+
+input{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: #7c7c7c2b;
+  color: #ffffff;
+  width: calc(100% - 60px);
+}
+
+button{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #7c7c7c2b;
+  color: #ffffff;
+  cursor: pointer;
+  float: right;
+}
+
+.search_img{
+  width: 25px;
+}
+
+.smallerBox{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mediumBox{
+  margin-top: 25px;
+}
+
+.city_name{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.temperature{
+  font-size: 20px;
+  margin-top: 20px;
+  
+}
+
+.weather{
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.humidity{
+  font-size: 20px;
+  margin-top: 20px;
+}
